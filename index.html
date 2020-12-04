@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Крестики-нолики</title>
+  </head>
+  <body>
+    <div class="root">
+
+      <div class="currentPlayer">
+        <span>Сейчас ходит <span id="currentPl">X</span></span>
+      </div>
+
+      <div class="gameResult">
+        <span>Результат игры: </span><br>
+        <span id="whoWins"></span>
+      </div>
+
+      <div class="gameHistory">История игр: 
+        <div id="roundHistory"></div><br />
+      </div>
+
+      <div id="area"></div>
+
+      <div class="stat">
+        <table>
+          <th colspan="2">Статистика</th>
+          <tr>
+            <td>Победы X</td>
+            <td><span id="sX">0</span></td>
+          </tr>
+          <tr>
+            <td>Победы O</td>
+            <td><span id="sO">0</span></td>
+          </tr>
+          <tr>
+            <td>Ничьи</td>
+            <td><span id="sD">0</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>    
+    <script src="index.js"></script>
+  </body>
+</html>

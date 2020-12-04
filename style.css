@@ -1,0 +1,74 @@
+.root {
+    display: flex;
+    background-color: black;
+    height: 350px;
+}
+
+#area {
+    width: 170px;
+    
+    margin: 10px;
+    font-size: 0;
+    
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    display: inline-block;
+    vertical-align: middle;
+    transition: background .1s;
+    cursor: pointer;
+    color: white;
+}
+
+.cell:hover {
+    background-color: darkgrey;
+}
+
+.currentPlayer {
+    width: 140px;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+}
+
+.stat {
+    margin-top: 11px;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+.stat table {
+    border-collapse: collapse;
+    
+}
+
+.stat table, .stat th, .stat td {
+    border: 3px solid black;
+    border-color: white;
+    padding: 6px;
+    text-align: center;
+} 
+
+.gameResult  {
+    width: 140px;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+}
+
+.gameHistory {
+    width: 105px;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+    
+}
+
